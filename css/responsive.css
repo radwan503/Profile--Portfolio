@@ -1,0 +1,85 @@
+@media (min-width: 320px) and (max-width: 374px){
+    .part_one {
+    height: 670px;
+    width: 300px;
+    background-color: #fff;
+    left: -15px;
+    top: 50px;
+    position: relative;
+}
+    .one img {
+    height: 670px;
+    width: 310px;
+    background-size: cover;
+}
+
+#particles-js p {
+    
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 115px;
+    color: #fff;
+    font-family: teko;
+    font-weight: 400;
+     font-size: 18px;
+  
+    
+}
+    .part_two {
+    top: 50px;
+    height: 670px;
+    width: 310px;
+    background-color: black;
+    position: relative;
+        margin-left: -20px;
+}
+
+
+    #ABOUT {
+    background-color: black;
+    height: auto;
+    padding: 50px;
+    margin-top: 620px;
+    border-top: 2px solid white;
+}
+    .progreebar {
+    margin-top: 370px;
+        margin-left: -10px;
+  
+   
+}
+#SERVICE {
+    background-color: black;
+    height: auto;
+    padding: 0px;
+    border-top: 2px solid white;
+}    
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width:100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: #000;
+}
+    
+.element-item {
+  position: relative;
+  float: left; 
+width: 100%;
+  color: #262524;
+    border: 10px solid #000;
+    overflow: hidden;
+}
+    #quote-carousel .carousel-indicators {
+    right: 50%;
+    top: 200px;;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+}

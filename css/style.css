@@ -1,0 +1,896 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/* =============================================================================
+   particels.js
+   ========================================================================== */
+
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+body {
+    line-height: 1
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+nav ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+
+del {
+    text-decoration: line-through
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+input,
+select {
+    vertical-align: middle
+}
+
+li {
+    list-style: none
+}
+
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* remove canvas default margin */
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+#particles-js h1 {
+    font-size: 4rem;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    color: #FFF;
+    font-weight: 400;
+    /*text-shadow: 5px 5px #5F6D72;*/
+    text-transform: uppercase;
+    font-family: Agency FB;
+   
+}
+
+#particles-js p {
+    
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 115px;
+    color: #fff;
+    font-family: teko;
+    font-weight: 400;
+     font-size: 18px;
+  
+    
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Agency FB;
+    background-color: #19A875;
+}
+
+/*------------ start body part --------- */
+
+
+
+    
+/*  Home left Side  */
+.part_one {
+    height: 670px;
+    width: 577px;
+    background-color: #fff;
+    left: -15px;
+    top: 50px;
+    position: relative;
+}
+
+/*Home Right Side*/
+.part_two {
+    top: 50px;
+    height: 670px;
+    width: 772px;
+    background-color: black;
+    position: relative;
+}
+
+.one img {
+    height: 670px;
+    width: 577px;
+    background-size: cover;
+}
+
+/*-------Home Part---------*/
+
+
+#HOME {
+        background-color: fff;
+    height: 500px;
+}
+
+/*Home PART End*/
+
+
+/*ABOUT PART  START*/
+
+#ABOUT {
+    background-color: black;
+    height: auto;
+    padding: 50px;
+    margin-top: 220px;
+    border-top: 2px solid white;
+}
+
+#ABOUT h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Agency FB;
+}
+#ABOUT h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about_me {
+    margin-top: 50px;
+    font-family: Agency FB;
+    color: white;
+}
+.about_me p{
+    float: left;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+.progreebar {
+    margin-top: 70px;
+    margin-left: 100px;
+   
+}
+.progress-bar {
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    width: 100px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background: #000;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+/*ABOUT PART  end*/
+
+
+/*SERVICE PART  START*/
+#SERVICE {
+    background-color: black;
+    height: auto;
+    padding: 50px;
+    border-top: 2px solid white;
+}
+
+#SERVICE h1 {
+    text-align: center;
+    font-family: Agency FB;
+    font-size: 30px;
+    color: #fff;
+}
+
+.service_part {
+    font-family: Agency FB;
+    margin-top: 50px;
+    color: #000;
+}
+
+.service_offer {
+    background-color: white;
+    border: 5px solid black;
+    padding: 20px;
+    height: 200px;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: #000;
+}
+
+.service_offer:hover .overlay {
+    opacity: 0.9;
+}
+
+.overlay_text {
+    background-color: #000;
+    height: 180px;
+    width: 245px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+.overlay_text i {
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.overlay_text h3 {
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.service_offer h3 {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.service_offer p {
+    margin-top: 10px;
+}
+
+/*service PART  END*/
+
+/*PROTFOLIO PART  START*/
+#PROTFOLIO {
+    background-color: black;
+    height: auto;
+    border-top: 2px solid #fff;
+}
+/*PROTFOLIO PART End, PROTFOLIO CSS FOUND CSS FOLDER NAME OF ISOTPE */
+
+/* COMMENT PART START */
+#COMMENT {
+    background-color: black;
+    height: auto;
+    padding: 50px;
+    border-top: 2px solid white;
+}
+
+#COMMENT h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Agency FB;
+}
+
+.Customer_comment {
+    margin-top: 50px;
+}
+
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+  
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border-color: #fff;
+    opacity: 1;
+    overflow: hidden;
+  
+}
+
+.carousel-inner {
+    min-height: 240px;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote p {
+    color: white;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+/*COMMENT PART End*/
+
+/*Education info part*/
+.page-header h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Agency FB;
+    margin-top: 30px;
+}
+#EDUCATION{
+    background-color: black;
+    height: auto;
+    border-top: 2px solid white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li > .timeline-panel {
+  width: 50%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+    text-align: center;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline > li.timeline-inverted + li:not(.timeline-inverted),
+.timeline > li:not(.timeline-inverted) + li.timeline-inverted {
+margin-top: 60px;
+}
+
+.timeline > li:not(.timeline-inverted) {
+padding-right:90px;
+}
+
+.timeline > li.timeline-inverted {
+padding-left:90px;
+}
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+.timeline-badge.success {
+  background-color: #3f903f !important;
+}
+.timeline-badge.warning {
+  background-color: #f0ad4e !important;
+}
+.timeline-badge.danger {
+  background-color: #d9534f !important;
+}
+.timeline-badge.info {
+  background-color: #5bc0de !important;
+}
+.timeline-title {
+  margin-top: 0;
+  color: #fff;
+    font-size: 20px;
+    font-family: Agency FB;
+}
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+    color: white;
+    font-family: Agency FB;
+    margin-top: 10px;
+}
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+/*CONTACT PART  START*/
+
+#CONTACT {
+    background-color: black;
+    height: auto;
+    border-top: 2px solid white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#CONTACT h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Agency FB;
+    margin-top: 30px;
+}
+
+/*registration PART*/
+.registration {
+    font-family: Agency FB;
+}
+
+.texttype {
+    margin-top: 30px;
+    padding: 30px;
+    width: 400px;
+    height: 315px;
+    background-color: black;
+    background-size: cover;
+}
+
+.texttype:hover {
+    margin-top: 30px;
+    padding: 30px;
+    width: 400px;
+    opacity: 1;
+    height: 315px;
+    transition: .5s;
+}
+
+.buttonres {
+    margin-left: 150px;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.buttonres:hover {
+    height: 30px;
+    width: 120px;
+    border: none;
+    color: black;
+    font-family: fantasy;
+    transition: .5s;
+}
+
+.texttype {
+    padding-top: 20px;
+}
+
+.input-name {
+    margin-top: 20px;
+}
+
+.input_text-name {
+    width: 350px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.input_email {
+    margin-top: 20px;
+}
+
+.input_text-email {
+    width: 350px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.message_text {
+    width: 350px;
+    height: 100px;
+    color: white;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.login_button {
+    width: 100px;
+    height: 40px;
+    background-color: #000;
+    border: none;
+    color: white;
+    font-family: fantasy;
+}
+.google_map{
+    margin-top: 40px;
+}
+/*CONTACT PART END*/
+/*FOOTER PART START*/
+.footer{
+    border-top: 2px solid white;
+    background-color: black;
+    height: auto;
+    padding-bottom: 100px;
+}
+.footer_upper{
+    background-color: white;
+    height: auto;
+    padding: 10px;
+    margin-top: -60px;
+}
+.footer_upper:hover{
+    background-color: black;
+     height: auto;
+    padding: 10px;
+    margin-top: -60px;
+    transform: rotateX(360deg);
+    transition: .9s;
+    color: white;
+    border: 2px solid white;
+}
+.ph_num{
+    padding:30px;
+    font-family: Agency FB; 
+    font-weight: bold;
+}
+.ph_num{
+    padding:30px;
+    font-family: Agency FB; 
+}
+.Email{
+    padding:30px;
+    font-family: Agency FB;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.Address{
+    padding:30px;
+    font-family: Agency FB;
+    font-weight: bold;
+    line-height: 1.5em
+}
+.social_site{
+    margin-top: 50px;
+    text-align: center;
+}
+.social_site i{
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 8px;
+    color: white;
+     
+}
+.social_site i:hover{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    
+}
+.social_site p{
+   margin-top: 20px;
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+}
+/*FOOTER PART END */
+
+/*for scroll top */
+
+.scrollup{
+			width:40px;
+			height:40px;			
+			text-indent:-9999px;
+			opacity:0.3;
+			position:fixed;
+			bottom:50px;
+			right:100px;
+			display:none;			
+			background: url('images/scroll.png') no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
